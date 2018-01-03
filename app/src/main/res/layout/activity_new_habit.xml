@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.csm.listadehbitos.NewHabitActivity">
+
+    <Button
+        android:id="@+id/addHabit"
+        android:layout_width="81dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="8dp"
+        android:text="Salvar"
+        app:layout_constraintBottom_toBottomOf="@+id/newHabit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/newHabit"
+        app:layout_constraintTop_toTopOf="@+id/newHabit" />
+
+    <EditText
+        android:id="@+id/newHabit"
+        android:layout_width="237dp"
+        android:layout_height="43dp"
+        android:layout_marginBottom="320dp"
+        android:layout_marginStart="8dp"
+        android:ems="10"
+        android:hint="Novo hábito"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</android.support.constraint.ConstraintLayout>
